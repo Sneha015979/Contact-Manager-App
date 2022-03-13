@@ -1,0 +1,108 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>sign in Form</title>   
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+</head>    
+<body>    
+    <h2>signin Page</h2><br>   
+    <p>dont have an account?<a href = " " >sign up</a></p>
+    <div class="sign up">    
+    <form id="sign up" method="get" action="signin.php">    
+        <label><b>email id    
+        </b>   
+        </label>    
+        <input type="    " name="email id" id="email"placeholder="    ">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="       " name=" pass word  " id=" pass  " placeholder="     ">    
+        <br><br>    
+        <a href = " #">    forget your pass word? </a>
+        <p><input type="button" name="sign" id="sign" value="sign in ">  </p>    
+        <br><br>    
+        <input type="checkbox" id="check">    
+          
+         
+           
+    </form>     
+</div>    
+</body>    
+</html>  
+
+
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>sign up Form</title>   
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">    
+</head>    
+<body>    
+    <h2>signup Page</h2><br>   
+    <p>already have an account?<a href = " " >sign in</a></p>
+    <div class="sign up">    
+    <form id="sign up" method="get" action="signup.php">    
+        <label><b>email id    
+        </b>   
+        </label>    
+        <input type=" text  " name="email id" id="email"placeholder="    ">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>  
+        <input type="  number     " name=" pass word  " id=" pass  " placeholder="     ">    
+        <br><br>  
+        <label><b>secret</b>
+        </label>
+        <input type ="  number    " name =" secret  "   place holder="       ">
+        <br><br>
+        <a href = " #">    forget your pass word? </a>
+        <p><input type="button" name="sign" id="sign" value="sign up ">  </p>    
+        <br><br>    
+        <input type="checkbox" id="check">    
+          
+         
+           
+    </form>     
+</div>    
+</body>    
+</html>     
+
+
+
+          
+   
+<!DOCTYPE html>
+<html>
+   <head>
+      <style>
+         table, th, td {
+            border: 1px solid black;
+         }
+      </style>
+   </head>
+
+   <body>
+      <h1>My contacts</h1>
+      <table>
+         <tr>
+            <th>name</th>
+            <th>phone numbenumber</th>
+            <th> email id</th>
+         </tr>
+         <tr>
+            <td>  virat kohli </td>
+            <td>  9191912321  </td>
+            <td>  viratkohli@bcci.in</td>
+         </tr>
+         <tr>
+            <td>dhoni</td>
+            <td>9122321122</td>
+            <td>dhoni@csk.in</td>
+         </tr>
+       </table>
+   </body>
+</html>
